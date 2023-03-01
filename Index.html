@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira Code">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./output.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container flex flex-col items-center sm:w-2/3 mx-auto rounded sm:p-5 shadow sm:mt-10 p-3">
+        <div
+            class="w-full bg-gradient-to-r from-slate-200 to-blue-200 p-4 flex flex-row items-center justify-between rounded-sm">
+            <p class="font-fari font-semibold text-base self-start">Memory Game</p>
+            <div class="flex flex-row items-stretch self-end bg-blue-400 p-2 rounded-md">
+                <i class="fa text-black text-xl">&#xf17b; : </i>
+                <span class="text-lg font-fari font-semibold text-center bg-white px-3 rounded" id="score"></span>
+            </div>
+        </div>
+        <p class="font-fari font-semibold text-center bg-green-300 p-2 w-full rounded-sm text-base my-1 hidden"
+            id="win">You
+            Won</p>
+        <div class="grid grid-cols-4 gap-4 w-full bg-gradient-to-r from-slate-300 to-blue-300 mt-5 p-3" id="content">
+        </div>
+        <button type="button"
+            class="bg-slate-700 text-white block w-full rounded p-2 font-fari font-semibold text-sm my-3" id="new">New
+            Game</button>
+    </div>
+    <script src="Index.js"></script>
+</body>
+
+</html>

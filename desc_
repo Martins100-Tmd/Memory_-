@@ -1,0 +1,20 @@
+Memory Game Documentation
+=========================
+Language:
+    Typescript,
+    HTML, and CSS,
+    TailwindCss
+=========================
+Functions:
+    Validate():
+        Job: Computes the value of two arrays and check for similarities in their values
+        Effect: 
+            i. Style each box div element to either red or green based on the similarities result.
+            ii. Increase the score on a positive similarity result.
+=================
+NB:
+I used a IIFE(Immediately Invoked Function Expression) because I was having |
+a problem to get Typescript to work normally.
+
+
+
